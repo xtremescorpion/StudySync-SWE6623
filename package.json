@@ -1,0 +1,16 @@
+{
+  "name": "studysync",
+  "version": "1.0.0",
+  "description": "StudySync - SWE 6623 Assignment 4, Group 4",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "start": "npm --prefix server start",
+    "build": "npm --prefix client run build",
+    "verify": "npm --prefix server run verify",
+    "smoke": "npm --prefix server run smoke",
+    "seed": "npm --prefix server run seed"
+  }
+}
